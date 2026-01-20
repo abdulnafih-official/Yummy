@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy Fried Chicken</title>
+    <!-- <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://yummyfried.in/assets/front/img/user/651e9a95544d3.png">
+</head>
+
+
+
+<body class="bg-dark">
+    <main>
+        <h1 class="visually-hidden">Yummy Fried Chicken</h1>
+        <!-- navigation bar -->
+        <nav class="navbar navbar-expand-lg bg-white navbar-white fixed-top " style="border-bottom: 2px solid black;">
+            <div class="container-fluid">
+                <a href="index.html"><img src="https://yummyfried.in/assets/front/img/user/651e9b190f507.png"
+                        class="logoimg" alt="Yummy Fried Chicken" width="200px" fetchpriority="high"></a>
+                <!-- nav bar toggle button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- nav bar menu -->
+                <div class="collapse navbar-collapse" id="navbarmenu">
+                    <ul class="navbar-nav mx-1">
+                        <li class="nav-item text-dark mx-3"><a href="#carouselExample">HOME</a></li>
+
+                        <li class="nav-item text-dark mx-3"><a href="#menu">MENU</a></li>
+
+                        <li class="nav-item text-dark mx-3"><a href="#offers">OFFERS</a></li>
+
+                        <li class="nav-item text-dark mx-3"><a href="#location">LOCATION</a></li>
+
+                        <li class="nav-item text-dark mx-3"><a href="#contact">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- home page photos-->
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 h-40" src="images/car1.webp" fetchpriority="high" alt="car1">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/car2.webp" fetchpriority="high" alt="car2">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/16 piece combo.webp" fetchpriority="high"
+                        alt="16 piece combo">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/16 hotwings.webp" fetchpriority="high" alt="16 hotwings">
+                </div>
+            </div>
+
+            <!-- carousel button -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- menu  -->
+        <h5 id="menu" class="text-center text-white mt-5">DIVE INTO <span
+                class="fs-4 text-danger my-5">DELICIOUSNESS</span>
+        </h5>
+        </div>
+
+        <!-- cards -->
+        <div class="container menu-container my-5 mx-auto">
+            <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-4">
+                <!-- card-1 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card">
+                        <img src="images/snack meal.webp" class="card-img-top" fetchpriority="high" alt="Snack meal">
+                        <div class="card-body">
+                            <h2 class="card-title">Snack Meal</h2>
+                            <p class="card-text">
+                                2 Pcs Chicken, Mayonnaise, 1 Kuboos, Ketchup, Pepsi 250 ml
+                            </p>
+                            <p class="card-text text-success">₹99</p>
+                            <a href="#" class="btn btn-success d-flex justify-content-center">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-2 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card">
+                        <img src="images/4 piece combo.webp" class="card-img-top" fetchpriority="high"
+                            alt="4 Piece Combo">
+                        <div class="card-body">
+                            <h2 class="card-title">4 Piece Combo</h2>
+                            <p class="card-text">
+                                G4 Pcs Chicken, 2 Kuboos, Mayonnaise, Ketchup
+                            </p>
+                            <p class="card-text text-success">₹199</p>
+                            <a href="#" class="btn btn-success d-flex justify-content-center">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-3 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card ">
+                        <img src="images/8 piece combo.webp" alt="8 piece combo" class="card-img-top"
+                            fetchpriority="high">
+                        <div class="card-body">
+                            <h2 class="card-title">8 piece combo</h2>
+                            <p class="card-text">
+                                8 Pcs Chicken, 3 Kuboos, Mayonnaise, Ketchup
+                            </p>
+                            <p class="card-text text-success">₹399</p>
+                            <a href="#" class="btn btn-success d-flex justify-content-center">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-4 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card ">
+                        <img src="images/12 piece combo.webp" class="card-img-top" fetchpriority="high"
+                            alt="12 Pcs combo">
+                        <h2 class="card-title">12 Pcs Combo</h2>
+                        <p class="card-text">
+                            12 Pcs Chicken, 5 Kuboos, Mayonnaise, Ketchup
+                        </p>
+                        <p class="card-text text-success">₹549</p>
+                        <a href="#" class="btn btn-success d-flex justify-content-center">Order Now</a>
+                    </div>
+                </div>
+                <!-- card-5 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card ">
+                        <img src="images/16 piece combo.webp" class="card-img-top" fetchpriority="high"
+                            alt="16 Pcs combo">
+                        <div class="card-body">
+                            <h2 class="card-title">16 Pcs Combo</h2>
+                            <p class="card-text">
+                                16 Pcs Chicken, 6 Kuboos, Mayonnaise, Ketchup
+                            </p>
+                            <p class="card-text text-success">₹699</p>
+                            <a href="#" class="btn btn-success d-flex justify-content-center">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-6 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card ">
+                        <img src="images/Riders Pride.webp" class="card-img-top" fetchpriority="high"
+                            alt="Riders Pride">
+                        <div class="card-body">
+                            <h2 class="card-title">Riders Pride</h2>
+                            <p class="card-text">
+                                Chicken 1 Pc, French Fries (R) , 1 Zinger Burger, Mayonnaise, Pepsi 250ml
+                            </p>
+                            <p class="card-text text-success">₹199</p>
+                            <a href="#" class="btn btn-success d-flex justify-content-center">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-7 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card ">
+                        <img src="images/Peers'Hunt.webp" class="card-img-top" fetchpriority="high" alt="Peers'Hunt">
+                        <div class="card-body">
+                            <h2 class="card-title">Peers'Hunt</h2>
+                            <p class="card-text">
+                                Chicken 2Pcs, French Fries (M), Mayonnaise, 4 Kuboos, 2 Pepsi 250 ml
+                            </p>
+                            <p class="card-text text-success">₹199</p>
+                            <a href="#" class="btn btn-success d-flex justify-content-center">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-8 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card ">
+                        <img src="images/Couple's Cult.webp" alt="Couple's Cult" class="card-img-top"
+                            fetchpriority="high">
+                        <div class="card-body">
+                            <h2 class="card-title">Couple's Cult</h2>
+                            <p class="card-text">
+                                Chicken 4Pcs, French Fries (R), 1 Zinger Burger, Mayonnaise, 2 Pepsi 250 ml
+                            </p>
+                            <p class="card-text text-success">₹199</p>
+                            <a href="#" class="btn btn-success d-flex justify-content-center">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-9 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card">
+                        <img src="images/Jolly Meal.webp" class="card-img-top" fetchpriority="high" alt="Jolly Meal">
+                        <div class="card-body">
+                            <h2 class="card-title">Jolly Meal</h2>
+                            <p class="card-text">
+                                Chicken 10 Pcs, 1 Popcorn, French Fries (M), Strips 4 Pcs, Mayonnaise, Kuboos 2, Pepsi
+                                1ltr
+                            </p>
+                            <p class="card-text text-success">₹499</p>
+                            <a href="#" class="btn btn-success d-flex justify-content-center">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-10 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card">
+                        <img src="images/car1.webp" class="card-img-top" fetchpriority="high" alt="Best Bucket">
+                        <div class="card-body">
+                            <h2 class="card-title">Best Bucket</h2>
+                            <p class="card-text">
+                                Chicken 14Pcs , French Fries (M), 1 Zinger Burger, Mayonnaise, 4 Pepsi 250 ml, 4 Kuboos
+                            </p>
+                            <p class="card-text text-success">₹699</p>
+                            <a href="#" class="btn btn-success d-flex justify-content-center">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-11 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card ">
+                        <img src="images/car2.webp" class="card-img-top" fetchpriority="high" alt="Trendy 20">
+                        <div class="card-body">
+                            <h2 class="card-title">Trendy 20</h2>
+                            <p class="card-text">
+                                Fried Chicken
+                                Chicken 20Pcs , French Fries (M), 2 Zinger Burger, Mayonnaise, 4 Hot Wings, Pepsi 2ltr,
+                                4
+                                Kuboos
+                            </p>
+                            <p class="card-text text-success">₹999</p>
+                            <a href="#" class="btn btn-success d-flex justify-content-center">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-12 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card ">
+                        <img src="images/4 hotwings.webp" class="card-img-top" fetchpriority="high" alt="4 hotwings">
+                        <div class="card-body">
+                            <h2 class="card-title">Hot Wings (4Pcs)</h2>
+                            <p class="card-text">
+                                4 Pcs Hot Wings, Spicy Mayo (S), Ketchup
+                            </p>
+                            <p class="card-text text-success">₹99</p>
+                            <a href="#" class="btn btn-success d-flex justify-content-center">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-13 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card ">
+                        <img src="images/8 hotwings.webp" class="card-img-top" fetchpriority="high" alt="8 hotwings">
+                        <div class="card-body">
+                            <h2 class="card-title">Hot Wings (8Pcs)</h2>
+                            <p class="card-text">
+                                8 Pcs Hot Wings, Spicy Mayo (S), Ketchup
+                            </p>
+                            <p class="card-text text-success">₹199</p>
+                            <a href="#" class="btn btn-success d-flex justify-content-center">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-14 -->
+                <div class="col d-flex justify-content-center">
+                    <div class="card ">
+                        <img src="images/16 hotwings.webp" class="card-img-top" fetchpriority="high" alt="16 hotwings">
+                        <div class="card-body">
+                            <h2 class="card-title">Hot Wings (16Pcs)</h2>
+                            <p class="card-text">
+                                16 Pcs Hot Wings, Spicy Mayo (S), Ketchup
+                            </p>
+                            <p class="card-text text-success">₹259</p>
+                            <a href="#" class="btn btn-success d-flex justify-content-center">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- order placed alert -->
+        <script>
+            let btns = document.querySelectorAll(".btn");
+            btns.forEach(function (btn) {
+                btn.addEventListener("click", function () {
+                    alert("Order Placed Successfully!🎉 your order will be delivered soon");
+                });
+            });
+        </script>
+
+        <!-- offer section -->
+        <section id="offers" class="offer bg-success py-5">
+            <div class="container text-center">
+                <h2 class="fw-bold mb-3">Special Offers 🎉</h2>
+                <p class="mb-4 text-dark">Get 30% off on your first online order and exclusive weekend combos!</p>
+                <a href="#offers" id="offer" class="btn btn-dark"> Grab the Offer </a>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer id="contact" class="bg-white text-dark py-4">
+            <div class="container text-center">
+                <img src="https://yummyfried.in/assets/front/img/user/651e9b190f507.png" width="60px"
+                    alt="Yummy Fried Chicken" fetchpriority="high">
+                <h5 class="mb-2">Yummy Fried Chicken</h5>
+                <p class="mb-1"> Delicious food, unforgettable taste. </p>
+                <p class="mb-1"> 📍 Nadapuram, Kerala</p>
+                <a id="location" href="https://maps.app.goo.gl/4QcMfqMV36w9tQhUA" target="_blank"
+                    class="btn btn-dark width-40">Click here for directions</a>
+                <p class="mb-1"> Phone: +91 8921112626</p>
+                <p class="mb-1"> Email: <a href="mailto:info@yummyfried.in">info@yummyfried.in</a></p>
+                <p class="mb-0"> © 2026 Yummy Fried Chicken. All rights reserved. </p>
+            </div>
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+
+        <script src="/js/bootstrap.bundle.min.js"></script>
+        <script>
+            const offerBtn = document.getElementById('offer');
+            offerBtn.addEventListener('click', function () {
+                alert('Congratulations! You have availed a 30% discount on your order. Enjoy your meal! 🎉🍗');
+            });
+        </script>
+    </main>
+</body>
+
+</html>

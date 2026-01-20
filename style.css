@@ -1,0 +1,19 @@
+body{
+    padding-top: 80px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+.card {
+    width: 18rem;
+}
+
+.card:hover {
+    background-color: rgb(212, 214, 217);
+}
